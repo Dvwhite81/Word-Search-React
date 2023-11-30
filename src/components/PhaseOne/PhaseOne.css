@@ -7,8 +7,19 @@
   text-align: center;
 }
 
-#size-input,
-#size-submit {
+#phase-one-input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+#phase-one-btns {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn,
+#size-input {
   border: none;
   border-radius: 10px;
   color: var(--black-color);
@@ -19,6 +30,12 @@
   width: 5rem;
 }
 
-#size-submit {
+.btn {
   background-color: var(--green-bg);
+  cursor: pointer;
+}
+
+#size-input,
+#size-submit {
+  margin: 0 auto;
 }
