@@ -1,16 +1,21 @@
 :root {
-  --square-size: calc(10vh - 2px);
+  --green-bg: #9EBC9F;
+  --light-bg: #D3B88C;
+  --dark-bg: #656256;
+  --black-color: #230903;
+  --white-color: #F4F2F3;
 }
 
 * {
   box-sizing: border-box;
+  color: var(--white-color);
   margin: 0;
   padding: 0;
 }
 
 /* Main container */
 #container {
-	background-color: burlywood;
+	background-color: var(--dark-bg);
 	display: flex;
 	height: 100vh;
 	width: 100vw;

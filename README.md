@@ -1,1 +1,1 @@
-# battleship-react
+# word-search-react
