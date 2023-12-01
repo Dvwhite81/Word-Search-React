@@ -1,0 +1,8 @@
+#phase-three {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  margin: auto;
+  row-gap: 1rem;
+  text-align: center;
+}

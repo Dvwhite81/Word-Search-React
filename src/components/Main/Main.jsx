@@ -118,7 +118,7 @@ function Main() {
       resetGuess={resetGuess}
     />
   ) : (
-    <PhaseThree />
+    <PhaseThree setTrue={setIsPhaseOne} />
   );
 }
 
