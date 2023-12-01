@@ -1,13 +1,13 @@
-function StepOne({ setFalse, setSize }) {
+function StepOne({ setFalse, setNumWords }) {
   return (
     <div id="phase-one-input">
       <h3>Please enter how many words you want to find:</h3>
       <input
         id="size-input"
         type="number"
-        min={2}
+        min={5}
         max={20}
-        onChange={(e) => setSize(Number(e.target.value))}
+        onChange={(e) => setNumWords(Number(e.target.value))}
       />
       <button
         id="size-submit"

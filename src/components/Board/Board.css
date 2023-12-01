@@ -1,0 +1,11 @@
+:root {
+  --board-size: 80vh;
+}
+
+#gameboard {
+  border: 1px solid var(--white-color);
+  display: grid;
+  height: var(--board-size);
+  margin: auto;
+  width: var(--board-size);
+}

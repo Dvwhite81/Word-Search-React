@@ -1,0 +1,18 @@
+.space {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.space:hover {
+  color: var(--light-bg);
+}
+
+.selected {
+  background-color: var(--light-bg);
+}
+
+.correct {
+  background-color: var(--green-bg);
+}

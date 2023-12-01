@@ -27,36 +27,36 @@ function StepTwo({
   };
 
   return (
-    <div id="phase-one-input">
-      <h3>Please select a category:</h3>
+    <div id="phase-three-input">
+      <h3>Easy or hard?</h3>
       <div id="phase-one-btns">
         <button
-          id="animals-submit"
+          id="easy-submit"
           className="btn"
           type="submit"
-          onClick={() => handleSubmit('ANIMALS')}
+          onClick={() => setDifficulty('easy')}
         >
-          Animals
+          Easy
         </button>
         <button
-          id="food-submit"
+          id="medium-submit"
           className="btn"
           type="submit"
-          onClick={() => handleSubmit('FOOD')}
+          onClick={() => setDifficulty('medium')}
         >
-          Food
+          Medium
         </button>
         <button
-          id="sports-submit"
+          id="hard-submit"
           className="btn"
           type="submit"
-          onClick={() => handleSubmit('SPORTS')}
+          onClick={() => setDifficulty('hard')}
         >
-          Sports
+          Hard
         </button>
       </div>
     </div>
   );
 }
 
-export default StepTwo;
+export default StepThree;

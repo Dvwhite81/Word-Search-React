@@ -1,0 +1,25 @@
+#phase-two {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-top: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+#phase-two-h1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 60%;
+}
+
+#show-words-btn {
+  left: 1rem;
+  position: absolute;
+}
+
+#clear-guess-btn {
+  position: absolute;
+  right: 1rem;
+}
